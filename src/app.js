@@ -65,7 +65,7 @@ async function main() {
     childChain,
     account,
     process.env.SPLIT_TOKEN,
-    50,
+    process.env.MIN_SPLIT_VALUE,
     process.env.OMG_FEE_TOKEN,
     feeInfo.amount,
   );
